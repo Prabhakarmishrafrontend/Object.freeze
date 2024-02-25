@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeze</title>
+</head>
+<body>
+    
+
+
+    <!--script js link here -->
+    <script>
+        const data = {
+            username: "samar",
+            id: 2350,
+            pw: "Raw@12563"
+        }
+
+        Object.freeze(data);
+
+        data.id = 10000;
+        console.log(data.username);
+    </script>
+</body>
+</html>
